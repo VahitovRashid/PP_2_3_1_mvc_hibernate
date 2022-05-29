@@ -1,4 +1,4 @@
-package web.config.service;
+package web.service;
 
 import web.model.Car;
 
