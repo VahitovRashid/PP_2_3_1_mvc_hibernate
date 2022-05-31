@@ -35,11 +35,4 @@ public class UserServiceImpl implements UserService {
         userRepository.deleteById(id);
     }
 
-    public void update(Long id, User updatedUser) {
-        User userToBeUpdated = findById(id);
-        userToBeUpdated.setName(updatedUser.getName());
-        userToBeUpdated.setLastName(updatedUser.getLastName());
-        userToBeUpdated.setAge(updatedUser.getAge());
-    }
-
 }
